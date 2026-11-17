@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment variables & secrets
+.env
+.env.*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Proprietary Render backend files (if ever copied into this folder)
+quantEngine.js
