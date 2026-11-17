@@ -10,5 +10,4 @@ node_modules/
 Thumbs.db
 .vscode/
 
-# Proprietary Render backend files (if ever copied into this folder)
-quantEngine.js
+
