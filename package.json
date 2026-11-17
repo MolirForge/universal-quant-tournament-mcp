@@ -1,0 +1,51 @@
+{
+  "name": "universal-quant-tournament-mcp",
+  "version": "1.0.0",
+  "description": "Universal Multi-Strategy Quantitative Tournament, 1,000-Path Monte Carlo Risk Gate, and Multi-Broker Order Router (Alpaca, MT5, Tradovate/Webhooks) MCP Server.",
+  "license": "MIT",
+  "author": "Pyrochem",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "universal-quant-tournament-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "server.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/server.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pyrochem/universal-quant-tournament-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "quant",
+    "algorithmic-trading",
+    "monte-carlo",
+    "alpaca",
+    "metatrader-5",
+    "mt5",
+    "tradovate",
+    "tradingview",
+    "heikin-ashi",
+    "macd",
+    "vwap",
+    "fibonacci"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.6.7"
+  },
+  "overrides": {
+    "zod": "^4.6.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
