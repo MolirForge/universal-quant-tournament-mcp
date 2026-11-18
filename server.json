@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.Pyrochem/universal-quant-tournament-mcp",
-  "description": "8-Strategy Quant Tournament, 1,000-Path Monte Carlo Risk Gate & Multi-Broker Order Router (Alpaca, MT5, Tradovate).",
+  "description": "8-Strategy Quant Tournament & 1,000-Path Monte Carlo Risk Gate. Live MT5 & Alpaca Execution + Beta TradingView/Tradovate Webhook Payloads.",
   "version": "1.0.0",
   "repository": {
     "url": "https://github.com/Pyrochem/universal-quant-tournament-mcp",
@@ -18,7 +18,7 @@
       "environmentVariables": [
         {
           "name": "RAPIDAPI_KEY",
-          "description": "RapidAPI Key for Universal Quant Strategy Tournament (Free Tier: 9 calls/mo at https://rapidapi.com/infio-infio-quant/api/universal-quant-strategy-tournament).",
+          "description": "RapidAPI Key for Universal Quant Strategy Tournament (Free Tier: 9 calls/mo at https://rapidapi.com/infio-infio-default/api/universal-quant-strategy-tournament). Omit for Zero-Key Sandbox Preview.",
           "isRequired": false,
           "isSecret": true
         },
