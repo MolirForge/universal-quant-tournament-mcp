@@ -1,7 +1,8 @@
 {
   "name": "universal-quant-tournament-mcp",
+  "mcpName": "io.github.Pyrochem/universal-quant-tournament-mcp"
   "version": "1.0.0",
-  "description": "Universal Multi-Strategy Quantitative Tournament, 1,000-Path Monte Carlo Risk Gate, and Multi-Broker Order Router (Alpaca, MT5, Tradovate/Webhooks) MCP Server.",
+  "description": "8-Strategy Quant Tournament & Monte Carlo Risk Gate with Native MT5 & Alpaca Execution.",
   "license": "MIT",
   "author": "Pyrochem",
   "type": "module",
