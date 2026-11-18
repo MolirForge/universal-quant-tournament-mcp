@@ -151,20 +151,11 @@ Use the companion MCP server (`universal-quant-tournament-mcp`) to connect Claud
       "args": ["-y", "universal-quant-tournament-mcp"],
       "env": {
         "RAPIDAPI_KEY": "YOUR_RAPIDAPI_KEY",
-        "RAPIDAPI_HOST": "universal-quant-strategy-tournament.p.rapidapi.com"
+        "RAPIDAPI_HOST": "universal-quant-strategy-tournament.p.rapidapi.com",
+        "ALPACA_KEY_ID": "PK_YOUR_ALPACA_PAPER_KEY_ID",
+        "ALPACA_SECRET_KEY": "YOUR_ALPACA_PAPER_SECRET_KEY",
+        "ALPACA_PAPER": "true"
       }
-    },
-    "alpaca-paper": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@ideadesignmedia/alpaca-mcp",
-        "--paper",
-        "--key-id",
-        "YOUR_ALPACA_PAPER_KEY_ID",
-        "--secret-key",
-        "YOUR_ALPACA_PAPER_SECRET_KEY"
-      ]
     }
   }
 }
