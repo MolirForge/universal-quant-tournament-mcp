@@ -4,6 +4,21 @@ An institutional-grade, top-down quantitative trading engine, out-of-sample walk
 
 ---
 
+## Broker Execution Tiers & Roadmap
+
+To ensure institutional reliability, broker integrations are categorized by execution verification level:
+
+* **Tier 1: Live Verified Direct Execution (Production Ready)**
+  * **MetaTrader 5 (Forex, Metals, Energies & Index CFDs):** Direct local Windows terminal execution via the built-in zero-install Python IPC bridge (`sync_or_execute_local_mt5`). Features sequential mutex queueing, automatic Market Watch symbol activation, live broker OHLCV bar ingestion, account equity/leverage syncing, pre-flight `order_check()` margin/stops validation, and automatic `MARKET_DEAL` vs. `PENDING_LIMIT` order routing.
+  * **Alpaca (US Equities, ETFs & Crypto):** Direct Paper & Live execution via `alpaca_bracket_order` payloads[cite: 1] paired with the companion `@ideadesignmedia/alpaca-mcp` server or Alpaca REST API.
+* **Tier 2: Universal Webhook JSON Schema (Beta)**
+  * **TradingView / Tradovate Webhook Relay (`tradovate_tradingview_webhook`):** Generates standardized bracket order JSON payloads[cite: 1] compatible with third-party webhook automation relays (such as TradersPost, PickMyTrade, and PineConnector). *Note: When routing CME Futures (`MNQ`, `MES`, `ES`, `NQ`), append your active front-month contract expiry code (e.g., `MNQZ6` for Dec 2026) as required by your relay provider.*
+* **v1.1 Roadmap (In Development)**
+  * **TradeLocker Native REST Bridge:** Direct JWT authentication and automatic `tradableInstrumentId` lookup for prop-firm accounts.
+  * **Direct Tradovate OAuth2 Bridge:** Native REST order routing without third-party webhook relays.
+
+---
+
 ## Core Institutional Architecture (5-Stage Pipeline)
 
 Unlike basic indicator scripts that generate unvalidated signals, this engine enforces a strict 5-stage institutional desk workflow before approving any trade:
