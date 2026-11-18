@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
   "name": "io.github.Pyrochem/universal-quant-tournament-mcp",
-  "description": "8-Strategy Quant Tournament & 1,000-Path Monte Carlo Risk Gate. Live MT5 & Alpaca Execution + Beta TradingView/Tradovate Webhook Payloads.",
+  "description": "8-Strategy Quant Tournament & 1,000-Path Monte Carlo Risk Gate. Native MT5 & Alpaca Execution + Beta TradingView/Tradovate Webhook Payloads.",
   "version": "1.0.0",
   "repository": {
     "url": "https://github.com/Pyrochem/universal-quant-tournament-mcp",
@@ -25,6 +25,24 @@
         {
           "name": "RAPIDAPI_HOST",
           "description": "RapidAPI Host header (defaults to universal-quant-strategy-tournament.p.rapidapi.com).",
+          "isRequired": false,
+          "isSecret": false
+        },
+        {
+          "name": "ALPACA_KEY_ID",
+          "description": "Optional Alpaca API Key ID (starts with PK for Paper or AK for Live) for direct US Equity & Crypto execution.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "ALPACA_SECRET_KEY",
+          "description": "Optional Alpaca API Secret Key for direct US Equity & Crypto execution.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "ALPACA_PAPER",
+          "description": "Set to 'true' for Alpaca Paper Trading (default) or 'false' for Live Trading.",
           "isRequired": false,
           "isSecret": false
         }
