@@ -1,7 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "name": "io.github.Pyrochem/universal-quant-tournament-mcp",
-  "description": "8-Strategy Quant Tournament & 1,000-Path Monte Carlo Risk Gate. Native MT5 & Alpaca Execution + Beta TradingView/Tradovate Webhook Payloads.",
+  "name": "universal-quant-tournament-mcp",
+  "mcpName": "io.github.Pyrochem/universal-quant-tournament-mcp",
+  "description": "8-Strategy Quant Tournament & Monte Carlo Risk Gate with Native MT5 & Alpaca Execution.",
   "version": "1.0.0",
   "repository": {
     "url": "https://github.com/Pyrochem/universal-quant-tournament-mcp",
