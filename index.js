@@ -5,6 +5,7 @@ import { z } from "zod";
 import { fileURLToPath } from "url";
 import { execFile } from "child_process";
 import { promisify } from "util";
+import { realpathSync } from "node:fs";
 
 const execFileAsync = promisify(execFile);
 
@@ -886,10 +887,18 @@ async function main() {
   await server.connect(transport);
 }
 
+const resolveRealPath = (p) => {
+  try {
+    return realpathSync(p).toLowerCase();
+  } catch {
+    return p.toLowerCase();
+  }
+};
+
 const isMainModule =
-  process.argv[1] &&
-  fileURLToPath(import.meta.url).toLowerCase() ===
-    process.argv[1].toLowerCase();
+  Boolean(process.argv[1]) &&
+  resolveRealPath(fileURLToPath(import.meta.url)) ===
+    resolveRealPath(process.argv[1]);
 
 if (isMainModule) {
   main().catch((err) => {
