@@ -3,7 +3,7 @@
   "name": "io.github.Pyrochem/universal-quant-tournament-mcp",
   "mcpName": "io.github.Pyrochem/universal-quant-tournament-mcp",
   "description": "8-Strategy Quant Tournament & Monte Carlo Risk Gate with Native MT5 & Alpaca Execution.",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "repository": {
     "url": "https://github.com/Pyrochem/universal-quant-tournament-mcp",
     "source": "github"
@@ -12,7 +12,7 @@
     {
       "registryType": "npm",
       "identifier": "universal-quant-tournament-mcp",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "transport": {
         "type": "stdio"
       },
