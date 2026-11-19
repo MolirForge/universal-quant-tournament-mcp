@@ -160,6 +160,7 @@ Use the companion MCP server (`universal-quant-tournament-mcp`) to connect Claud
   }
 }
 ```
+Skill can be installed via `npx skills add Pyrochem/universal-quant-tournament-mcp`
 
 ## ⚠️ Legal Disclaimer & Risk Disclosure
 
