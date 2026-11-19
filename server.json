@@ -1,5 +1,5 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Pyrochem/universal-quant-tournament-mcp",
   "mcpName": "io.github.Pyrochem/universal-quant-tournament-mcp",
   "description": "8-Strategy Quant Tournament & Monte Carlo Risk Gate with Native MT5 & Alpaca Execution.",
