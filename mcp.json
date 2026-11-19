@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "universal-quant-tournament": {
+      "command": "npx",
+      "args": ["-y", "universal-quant-tournament-mcp"],
+      "env": {
+        "RAPIDAPI_KEY": "${RAPIDAPI_KEY}",
+        "RAPIDAPI_HOST": "universal-quant-strategy-tournament.p.rapidapi.com",
+        "ALPACA_KEY_ID": "${ALPACA_KEY_ID}",
+        "ALPACA_SECRET_KEY": "${ALPACA_SECRET_KEY}",
+        "ALPACA_PAPER": "true"
+      }
+    }
+  }
+}
