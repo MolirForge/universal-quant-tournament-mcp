@@ -5,7 +5,7 @@ license: MIT
 compatibility: Requires Node.js (npx) and the universal-quant-tournament-mcp server configured with RAPIDAPI_KEY. Optional ALPACA_KEY_ID, ALPACA_SECRET_KEY, and ALPACA_PAPER for Alpaca REST API v2, or an open Windows MetaTrader 5 desktop terminal for local IPC sync/execution.
 metadata:
   author: Pyrochem
-  version: "1.0.1"
+  version: "1.0.3"
   mcp_package: universal-quant-tournament-mcp
   repository: https://github.com/Pyrochem/universal-quant-tournament-mcp
 ---
