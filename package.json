@@ -1,7 +1,7 @@
 {
   "name": "universal-quant-tournament-mcp",
-  "mcpName": "io.github.Pyrochem/universal-quant-tournament-mcp"
-  "version": "1.0.0",
+  "mcpName": "io.github.Pyrochem/universal-quant-tournament-mcp",
+  "version": "1.0.1",
   "description": "8-Strategy Quant Tournament & Monte Carlo Risk Gate with Native MT5 & Alpaca Execution.",
   "license": "MIT",
   "author": "Pyrochem",
