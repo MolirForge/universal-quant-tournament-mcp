@@ -1,6 +1,6 @@
-# Universal Quant Strategy Tournament & Execution Engine (v1.0)
+# Universal Quant Strategy Tournament & Execution Engine (v1.0.3)
 
-An institutional-grade, top-down quantitative trading engine, out-of-sample walk-forward backtester, Bayesian Monte Carlo risk gate, and multi-broker order router. Designed for seamless integration with **REST API pipelines**, **AI Trading Agents**, and **Claude Desktop via Model Context Protocol (`universal-quant-tournament-mcp`)** with direct local **MetaTrader 5 (MT5)**, **Alpaca**, and **Tradovate / TradingView** execution support.
+An institutional-grade, top-down quantitative trading engine, out-of-sample walk-forward backtester, Bayesian Monte Carlo risk gate, and multi-broker order router. Designed for seamless integration with **REST API pipelines**, **AI Trading Agents**, and **Claude Desktop via Model Context Protocol (`universal-quant-tournament-mcp`)** with direct local **MetaTrader 5 (MT5)**, and **Alpaca** execution support.
 
 ---
 
