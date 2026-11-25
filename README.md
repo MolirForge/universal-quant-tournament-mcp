@@ -4,6 +4,14 @@ An institutional-grade, top-down quantitative trading engine, out-of-sample walk
 
 ---
 
+
+
+https://github.com/user-attachments/assets/39b13a05-f093-4998-9b28-e8e075893a69
+
+
+
+
+
 ## Broker Execution Tiers & Roadmap
 
 To ensure institutional reliability, broker integrations are categorized by execution verification level:
