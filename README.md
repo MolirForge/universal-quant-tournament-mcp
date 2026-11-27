@@ -4,11 +4,15 @@ An institutional-grade, top-down quantitative trading engine, out-of-sample walk
 
 ---
 
-
+## Claude + Alpaca
 
 https://github.com/user-attachments/assets/39b13a05-f093-4998-9b28-e8e075893a69
 
+## Gemini + MT5
 
+
+
+https://github.com/user-attachments/assets/b8559da5-1673-4900-9c4d-2bd479d8abe5
 
 
 
